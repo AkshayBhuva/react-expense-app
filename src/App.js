@@ -31,8 +31,8 @@ function App() {
    return (
       <div>
          <h1>Let's get started!</h1>
-         <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
-         <ExpenseItem title={expenses[1].title} amount={expenses[1].amount} date={expenses[1].date}></ExpenseItem>
+         <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date} />
+         <ExpenseItem title={expenses[1].title} amount={expenses[1].amount} date={expenses[1].date} />
       </div>
    );
 }
